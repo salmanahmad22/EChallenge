@@ -1,0 +1,88 @@
+.header {
+  text-align: center;
+}
+
+.filtering-row-container{
+  display: flex;
+  flex-direction: row;
+  padding: 2em;
+}
+
+.filtering-row-container button{
+  margin: 0.5em;
+}
+
+.filtering-row-container button:last-child{
+  position: absolute;
+  right: 2em;
+}
+
+.user-previews-table table{ 
+  width: 100%;
+  padding: 2em;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 2em;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.user-profile-container {
+  width: 100%;
+  padding: 2em;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.userbox{
+  width: 30%;
+  height: auto;
+  margin: 2em;
+}
+
+.user-blog-container{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 2em;
+  align-items: center;
+}
+
+.blogbox{
+  outline: 2px solid lightgrey;
+  flex-basis: 33.333333%;
+  height: auto;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.photo{
+  height: 30%;
+  width: 30%;
+}
+
+.page-navigator{
+  display: flex;
+  flex-direction: row;
+  padding: 2em;
+  justify-content: center;
+}
+
+.special-filters-row{
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+}
+
+.special-filters-row button{
+  width: 10%;
+}
+
